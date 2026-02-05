@@ -1,0 +1,129 @@
+# =============================
+# DesafioAPIClientes - .NET / Visual Studio / VS Code
+# =============================
+
+# Build results
+bin/
+obj/
+**/bin/
+**/obj/
+[Bb]uild/
+[Bb]uild[Ll]og.*
+[Ll]ogs/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Visual Studio files
+.vs/
+*.user
+*.userosscache
+*.suo
+*.cache
+*.docstates
+*.rsuser
+*.VC.db
+*.VC.VC.opendb
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+**/packages/*
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# .NET tools
+.dotnet/
+.dotnet-tools.json
+
+# Test results / coverage
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+coverage.*
+**/coverage/**
+**/*.opencover.xml
+
+# Publish / packaging
+publish/
+**/publish/
+*.publishsettings
+*.pubxml
+*.pubxml.user
+*.appx
+*.appxbundle
+*.msix
+*.msixbundle
+
+# OS junk
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Environment / secrets
+.env
+.env.*
+secrets.json
+appsettings.*.json.user
+**/appsettings.*.json.user
+
+# ASP.NET Core / IIS
+*.pidb
+*.pdb
+*.mdb
+*.log
+iisexpress/
+
+# Local databases (SQLite etc.)
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# If you want to version a sample DB, whitelist it explicitly:
+# !clientes.sample.db
+
+# EF Core
+**/Migrations/*.cs~
+**/Migrations/*.Designer.cs~
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# GitHub Copilot / Claude scratch folders (optional)
+.claude/
+.copilot/
+
+# Node (if ever used)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Docker local overrides
+docker-compose.override.yml
+
+# =============================
+# Solution / workspace
+# =============================
+*.sln.DotSettings.user
